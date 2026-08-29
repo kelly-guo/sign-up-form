@@ -1,0 +1,51 @@
+
+
+@font-face {
+  font-family: 'Norsebold';
+  src: url('Norsebold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.odin-logo {
+    max-width: 50px;
+    height: auto;
+}
+
+.logo-side{
+    display: flex;
+    flex: 1;
+    background-image: url(background.jpg);
+    background-size: cover;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+
+}
+
+.form-side {
+    flex: 2;
+}
+
+.title-background{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+h1 {
+    font-family: 'Norsebold', sans-serif;
+}
