@@ -29,12 +29,25 @@
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 20px;
 
 }
 
 .form-side {
+    padding: 20px;
     flex: 2;
+}
+
+.form-fields {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+
+}
+
+.input-field {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .title-background{
@@ -43,9 +56,40 @@
     align-items: center;
     justify-content: center;
     color: white;
+    margin-top: 200px;
 
 }
 
 h1 {
     font-family: 'Norsebold', sans-serif;
+    font-size: 5em;
 }
+
+.create {
+
+    background-color: #596D48;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+
+}
+
+.photo-credit {
+    color: white;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+}
+
+input:user-invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    border: 1px solid rgb(57, 57, 255);
+    box-shadow: 0 0 4px rgba(20,20,20,0.3)
+}
+
+
